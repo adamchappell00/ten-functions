@@ -41,7 +41,8 @@ function addOne(number){
     return (parseFloat(number) + 1);
 }
 function isEven(number){
-    if(number % 2 === 0){
+    var floatMe = parseFloat(number);
+    if(floatMe % 2 === 0){
         return true;
     } else {
         return false;
